@@ -187,17 +187,21 @@
   }
 
     #main > section.dark {
-      color: #ddd;
+      /* color: #ddd; */
       color: rgba(255, 255, 255, 0.75);
+			color: #00bad6;
+			font-weight: 400;
     }
 
       #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-        color: inherit;
+        color: #00bad6;
+				font-weight: 500;
       }
 
       #main > section.dark strong {
-        color: #fff;
+        color: #00dcff;
         border-color: inherit;
+				font-weight: 500;
       }
 
       #main > section.dark a {
@@ -216,10 +220,17 @@
     }
 
     #main > section.one {
-      background-color: #81918E;
+      /* background-color: #81918E;
       background-image: url("../../images/web.jpg");
-			background-size: cover;
+			background-size: cover; */
     }
+		video{
+			position: absolute;
+			left: 13.2em;
+			top:0;
+			width: calc(100% - 13.2em);
+			z-index: -1;
+		}
 
     #main > section.two {
       background-color: #f5fafa;
